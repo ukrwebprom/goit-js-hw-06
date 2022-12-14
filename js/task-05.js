@@ -1,9 +1,8 @@
-const inputEl = document.querySelector('#name-input');
-const spanEl = document.querySelector('#name-output');
+const inputEl = document.querySelector("#name-input");
+const spanEl = document.querySelector("#name-output");
 
-inputEl.addEventListener('input', (event) => {
-    const inputVal = event.currentTarget.value;
+inputEl.addEventListener("input", (event) => {
+  const inputVal = event.currentTarget.value;
 
-    spanEl.textContent = inputVal != '' ? inputVal : "Anonymous";
-    
+  spanEl.textContent = inputVal != "" ? inputVal : "Anonymous";
 });
